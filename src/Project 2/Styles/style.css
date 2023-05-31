@@ -2,14 +2,24 @@ table,
 th,
 td {
     border: 1px solid black;
+    font-family: 'Trebuchet MS';
 }
 th {
     background-color: rgb(143, 143, 248);
+    height: 20px;
 }
 table {
     background-color: black;
+    width: 100%
+    
 }
 #blank {
     color: rgb(224, 248, 90);
     background-color: rgb(224, 248, 90)
+}
+#drop{
+    background-color: white;
+}
+h1{
+    font-family: 'Trebuchet MS';
 }
