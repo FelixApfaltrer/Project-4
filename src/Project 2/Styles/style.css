@@ -10,16 +10,15 @@ th {
 }
 table {
     background-color: black;
-    width: 100%
-    
+    width: 100%;
 }
 #blank {
     color: rgb(224, 248, 90);
-    background-color: rgb(224, 248, 90)
+    background-color: rgb(224, 248, 90);
 }
-#drop{
+#drop {
     background-color: white;
 }
-h1{
+body {
     font-family: 'Trebuchet MS';
 }
