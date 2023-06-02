@@ -10,9 +10,31 @@
 
     <body>
         <h2>Fire Form</h2>
-        <form>
-            <label for="FirstName">First Name:</label>
-            <input type="text" placeholder="Type something">
+        <form action="http://example.com/join.php">
+            Username:
+            <input type="text" placeholder="Type something" size="20" maxlength="30" />
+            <br />
+            <br />
+            Password:
+            <input type="password" placeholder="Type password" size="20" />
+            <br />
+            <p>Type Space:</p>
+            <textarea name="comments" cols="40" rows="8" placeholder="Type Something..."></textarea>
+
+            <p>What's your favortie music genre?</p>
+            <input type="radio" name="genre" value="Rock" />
+            Rock
+            <input type="radio" name="genre" value="Pop" />
+            Pop
+            <input type="radio" name="genre" value="Jazz" />
+            Jazz
+            <br />
+            <p>What's Your Favorite Genre of Music?</p>
+            <select name="Genre">
+                <option value="Rock">Rock</option>
+                <option value="Pop">Pop</option>
+                <option value="Jazz">Jazz</option>
+            </select>
         </form>
     </body>
 </html>
