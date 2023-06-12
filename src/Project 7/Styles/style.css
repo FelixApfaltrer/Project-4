@@ -1,0 +1,18 @@
+
+body {
+    font-family: Verdana;
+    background-color: rgb(169, 176, 179);
+}
+input {
+    font-family: Verdana;
+    background-color: rgb(200, 202, 204);
+}
+input.highlight:hover{
+    background-color: rgb(255, 38, 0);
+}
+hr{
+    border-radius: 50px;
+    border-width: 3px;
+    background-color: black;
+    border-style: solid;
+}

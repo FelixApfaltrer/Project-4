@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Psuedo Classes on Forms</title>
+        <link rel="stylesheet" type="text/css" href="/src/Project 7/Styles/style.css" />
+    </head>
+
+    <body>
+        <h1>Fire CS form</h1>
+        <form action="http://example.com/join.php">
+            <h2>Personal Info</h2>
+            <p>First Name: <input type="text" placeholder="what's your first name" size="20" /> Last Name: <input type="text" placeholder="what's your last name" size="20" /></p>
+            <br />
+            <p>Email: <input type="email" placeholder="what's your email" /> Password: <input type="password" placeholder="123..." size="20" /></p>
+            <br />
+            <p>When were you born?<br /><input type="date" /></p>
+            <hr />
+            <h2>Class Info</h2>
+            <p>
+                What class are you in?
+                <br />
+                <select name="class">
+                    <option value="Intro">Intro to CS</option>
+                    <option value="Java">Java</option>
+                    <option value="AP_CS">AP CS</option>
+                    <option value="Collaboritive design">Collaboritive design</option>
+                </select>
+            </p>
+            <p>
+                Who is your teacher? <br />
+                <input type="radio" name="teacher" value="Jiggy" /> Dr. J <input type="radio" name="teacher" value="Manina" /> Mr. Mannina
+            </p>
+            <p>
+                What is your class period <br />
+                <input type="checkbox" name="1st" value="1st" /> 1<sup>st</sup> <input type="checkbox" name="2nd" value="2nd" /> 2<sup>nd</sup> <input type="checkbox" name="3rd" value="3rd" /> 3<sup>rd</sup>
+                <input type="checkbox" name="4th" value="4th" /> 4<sup>th</sup> <input type="checkbox" name="5th" value="5th" /> 5<sup>th</sup> <input type="checkbox" name="6th" value="6th" /> 6<sup>th</sup>
+                <input type="checkbox" name="7th" value="7th" /> 7<sup>th</sup> <input type="checkbox" name="8th" value="8th" /> 8<sup>th</sup>
+            </p>
+            <p>
+                What comments do you have? <br />
+                <textarea placeholder="comments..." cols="75" rows="7"></textarea>
+                <br />
+                
+                    <input class="highlight" type="submit" name="submit" /> 
+            
+            </p>
+        
+        </form>
+    </body>
+</html>
