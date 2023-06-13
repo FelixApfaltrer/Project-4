@@ -16,3 +16,14 @@ hr{
     background-color: black;
     border-style: solid;
 }
+::placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+.drip{
+    background-color: rgb(116, 83, 83);
+    color: rgb(12, 12, 12);
+}
+textarea{
+    background-color: rgb(173, 173, 231);
+}
